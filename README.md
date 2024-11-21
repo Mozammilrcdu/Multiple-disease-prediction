@@ -95,27 +95,31 @@ Follow these steps to set up and run the project on your local system:
 Clone this repository to your local system using Git:  
 ```bash
 git clone https://github.com/your-username/multiple-disease-prediction.git
-cd multiple-disease-prediction 
+cd multiple-disease-prediction
+```
 
-### Step 3: Install Dependencies  
-Install the required Python libraries listed in `requirements.txt`:  
+### Step 2: Install Dependencies  
+Install the required Python libraries :  
 
 ```bash
-pip install -r requirements.txt
-
-### Step 4: Run the Streamlit App  
+pip install numpy
+pip install sreamlit
+pip install stream-option-menu
+pip install pickle
+```
+### Step 3: Run the Streamlit App  
 Run the Streamlit application to launch the web interface:  
 
 ```bash
-streamlit run app.py
-
-### Step 5: Access the Application  
+streamlit run MDP.py
+```
+### Step 4: Access the Application  
 After running the Streamlit app, a local URL will be generated, typically:  
 
 ```text
 http://localhost:8501
-
-### Step 6: Use the Application  
+```
+### Step 5: Use the Application  
 
 1. **Select a Disease**:  
    Choose the disease you want to predict (Heart, Diabetes, or Parkinson's) from the dropdown menu.  
@@ -130,4 +134,22 @@ http://localhost:8501
 4. **View Results**:  
    The application will display the prediction result, including the likelihood of the selected disease.
 
+## Screenshots  
 
+### Screenshot 1: Disease Prediction UI
+![Prediction UI](./images/screenshot1.png)
+
+### Screenshot 2: Results Display
+![Results](./images/screenshot2.png)
+
+
+## Future Improvements  
+
+- **Add More Diseases for Prediction**:  
+  Extend the current model to include additional diseases for prediction, providing a broader scope for the application.
+
+- **Improve the UI for a Better User Experience**:  
+  Enhance the visual design and interactivity of the Streamlit app, making it more user-friendly and intuitive. This could include adding better input validation, clearer results presentation, and visualizations.
+
+- **Use More Advanced Models or Ensemble Techniques for Higher Accuracy**:  
+  Implement more sophisticated machine learning models, such as Gradient Boosting, XGBoost, or neural networks, to improve the accuracy of predictions. Additionally, combining multiple models using ensemble techniques like bagging or boosting could further enhance the results.
