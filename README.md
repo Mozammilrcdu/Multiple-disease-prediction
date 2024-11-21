@@ -88,7 +88,7 @@ Follow these steps to set up and run the project on your local system:
 
 ### Prerequisites  
 - Python 3.8 or later installed on your system.  
-- Required Python libraries installed (see `requirements.txt`).  
+- install the required Python libraries.  
 - Datasets downloaded (if not already included in the repository).  
 
 ### Step 1: Clone the Repository  
@@ -137,10 +137,10 @@ http://localhost:8501
 ## Screenshots  
 
 ### Screenshot 1: Disease Prediction UI
-![Prediction UI](./images/screenshot1.png)
+![Prediction UI](./images/Screenshot1.png)
 
 ### Screenshot 2: Results Display
-![Results](./images/screenshot2.png)
+![Results](./images/Screenshot2.png)
 
 
 ## Future Improvements  
